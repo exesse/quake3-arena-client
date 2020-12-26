@@ -13,5 +13,5 @@ git clone git@github.com:exesse/quake3-arena-client.git
 
 Start **Quake 3 Arena** from installed shortcut in application launcher. 
 
-### Feedback
+## Feedback
 Email bug reports, questions, discussions to [hi@exesse.org](mailto:hi@exesse.org).

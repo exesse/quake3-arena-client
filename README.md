@@ -7,7 +7,7 @@ You will need an original **pk0.pk3** file from the game CD or [digital](https:/
 
 ## Usage 
 ```bash
-git git@github.com:exesse/quake3-arena-client.git
+git clone git@github.com:exesse/quake3-arena-client.git
 ./quake3-arena-client/install.sh {Path or URL to pk0.pk3 original file}
 ```
 

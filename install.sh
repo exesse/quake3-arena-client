@@ -36,7 +36,7 @@ elif [[ "$1" == "--help" || "$1" == "-h" ]]; then
 else
     QUAKE_PAK_ARCHIVE=$1
     sudo apt update
-    sudo apt install wget quake3 game-data-packager innoextract
+    sudo apt install -qqy wget quake3 game-data-packager innoextract
     mkdir -p ${QUAKE_INSTALL_PATH}
     if [[ -f "$QUAKE_PAK_ARCHIVE" ]]; then
         if [[ "$2" == "" ]];then

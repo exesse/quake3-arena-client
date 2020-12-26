@@ -6,9 +6,10 @@ VAILD_CHECKSUM=7ce8b3910620cd50a09e4f1100f426e8c6180f68895d589f80e6bd95af54bcae
 
 
 if [[ "$*" == "" ]]; then
+    echo ""
     echo "ERROR - no arguments provided."
     echo ""
-    echo "Quake III Arena Client Installer."
+    echo "Quake 3 Arena Client Installer."
     echo ""
     echo "Usage: ./install.sh {path to pak0.pk3 file on local system | url to pak0.pk3 file that will be downloaded} [OPTION]"
     echo ""
@@ -21,7 +22,7 @@ if [[ "$*" == "" ]]; then
     echo "Email bug reports, questions, discussions to <hi@exesse.org>"
     exit 1
 elif [[ "$1" == "--help" || "$1" == "-h" ]]; then
-    echo "Quake III Arena Client Installer."
+    echo "Quake 3 Arena Client Installer."
     echo ""
     echo "Usage: ./install.sh {path to pak0.pk3 file on local system | url to pak0.pk3 file that will be downloaded} [OPTION]"
     echo ""

@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# quake3-arena-client
+Quake 3 Arena installer for Ubuntu/Debian.
 
-You can use the [editor on GitHub](https://github.com/exesse/quake3-arena-client/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is a guide for Quake 3 Arena on Ubuntu/Debian.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You will need an original **pk0.pk3** file from the game CD or [digital](https://github.com/nrempel/q3-server/raw/master/baseq3/pak0.pk3) [download](http://game.pioneernet.ru/dl/q3/files/pk3/pak0.pk3).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Usage 
+```bash
+git clone git@github.com:exesse/quake3-arena-client.git
+./quake3-arena-client/install.sh {Path or URL to pk0.pk3 original file}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Start **Quake 3 Arena** from installed shortcut in application launcher. 
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/exesse/quake3-arena-client/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##
+Email bug reports, questions, discussions to [hi@exesse.org](mailto:hi@exesse.org).
